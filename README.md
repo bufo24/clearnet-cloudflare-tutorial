@@ -68,7 +68,7 @@ Cloudflare->>Client: LND response
 		ssl_ciphers HIGH:!aNULL:!MD5;
 ```
 - Add subdomains to Nginx config:
-	- Underneath the lines describe above, we can specify our wanted subdomains and disered location:
+	- Underneath the lines describe above, we can specify our wanted subdomains and desired location:
 ```
 location / {
 	if ($http_host = 'mempool.domain.com') {
