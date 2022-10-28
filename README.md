@@ -53,7 +53,7 @@ Cloudflare->>Client: LND response
 		And again, do `CTRL + X` and `Y` to confirm.
 - Edit Nginx config
 	- Open the Nginx config with: `sudo nano /etc/nginx/nginx.conf`
-	- Scroll down to the bottom of the `html {} ` and add `server {}`
+	- Scroll down to the bottom of the `html {} ` and add `server {}` within the html brackets.
 	- Add the following lines within the server brackets:
 ```
 		listen 443 ssl http2;
