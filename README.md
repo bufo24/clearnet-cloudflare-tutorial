@@ -54,6 +54,7 @@ Cloudflare->>Client: LND response
 		`-----BEGIN PRIVATE KEY-----`
 		And again, do `CTRL + X` and `Y` to confirm.
 - Edit Nginx config
+  - [Example config](https://github.com/bufo24/clearnet-cloudflare-tutorial/blob/main/nginx.example.conf)
 	- Open the Nginx config with: `sudo nano /etc/nginx/nginx.conf`
 	- Scroll down to the bottom of the `html {} ` and add `server {}` within the html brackets.
 	- Add the following lines within the server brackets:
