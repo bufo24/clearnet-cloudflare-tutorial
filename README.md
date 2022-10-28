@@ -1,6 +1,8 @@
 # Expose ports to clearnet with Cloudflare without exposing your IP to the whole world
 
 ## Disclaimer
+This will expose your external IP address to Cloudflare!
+
 This is my first written guide, so I hope it is it's written in a way everybody can learn from this. 
 If you want to improve this guide, please make a pull request or an issue.
 For other questions: DM [@bufo24](https://t.me/bufo24) on Telegram
