@@ -3,10 +3,10 @@
 ## Disclaimer
 This is my first written guide, so I hope it is it's written in a way everybody can learn from this. 
 If you want to improve this guide, please make a pull request or an issue.
-For other questions: DM [@bufo24](t.me/bufo24) on Telegram
+For other questions: DM [@bufo24](https://t.me/bufo24) on Telegram
 
 # Requirements
-- Domain in [Cloudflare](cloudflare.com)
+- Domain in [Cloudflare](https://cloudflare.com)
 - Router with port forwarding (option without port forwarding coming soon)
 
 # What can you do after this tutorial?
@@ -97,4 +97,4 @@ Now your subdomains should be accessible from your browser.
 To let Zeus work with your subdomain, just change your TOR address to your subdomain like lnd.domain.com and disable TOR.
 
 If you think this guide could be better, please make a PR!
-For questions: DM [@bufo24](t.me/bufo24) on Telegram
+For questions: DM [@bufo24](https://t.me/bufo24) on Telegram
